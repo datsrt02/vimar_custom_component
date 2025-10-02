@@ -1,0 +1,7 @@
+{
+    "name": "VIMAR Connector by Dat",
+    "content_in_root": false,
+    "render_readme": true,
+    "homeassistant": "2024.10.4",
+    "persistent_directory": "data"
+  }

@@ -3,33 +3,16 @@
 
 <!-- PROJECT SHIELDS -->
 <div align="center">
-
-[![Releases][release-shield]][release-url]
-[![Commits][commits-shield]][commits-url]
-[![Stars][stars-shield]][stars-url]
-[![License][license-shield]][license-url]
-[![Builds][build-shield]][build-url]
-[![Bugs][bugs-shield]][bugs-url]
-[![Enhancements][enhancements-shield]][enhancements-url]
-
 </div>
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <picture>
-    <source srcset="https://github.com/andreaprosseda/vimar-byme-plus-homeassistant/blob/main/images/logo-on-dark.png" media="(prefers-color-scheme: dark)" width="auto" height="80"/>
-    <img src="https://github.com/andreaprosseda/vimar-byme-plus-homeassistant/blob/main/images/logo-on-light.png" alt="Home Assistant Logo" width="auto" height="80"/>
-  </picture>
-
   <h3 align="center">Vimar By-me Plus for HomeAssistant</h3>
 
   <p align="center">
     <p>An unofficial Home Assistant Custom Integration for Vimar Gateway 01410/01411<p/>
     <p>If you like this repo, give me a ⭐ clicking on the `Star` button in upper right corner<p/>
-    <a href="https://github.com/andreaprosseda/vimar-byme-plus-homeassistant/issues/new?labels=bug&template=bug-report.md">Report Bug</a>
-    ·
-    <a href="https://github.com/andreaprosseda/vimar-byme-plus-homeassistant/issues/new?labels=enhancement&template=feature-request.md">Request Feature</a>
   </p>
     <br />
 </div>
@@ -38,25 +21,6 @@
 
 > [!IMPORTANT]
 > This is a personal project developed by me and is not affiliated with, maintained, authorized, or endorsed by Vimar S.p.A. in any way. Use at your own risk.
-
-## Built by Your Support
-
-Hey there! 👋 What started as a fun project has turned into something much bigger! 
-
-This integration has been a truly time-consuming project, requiring many hours of development and a lot of hard work. Every line of code, every test, every bug fix has been carefully crafted to provide the best possible experience.
-
-If my work has been helpful to you, consider making a donation. Every contribution, no matter how small, makes a big difference and allows me to keep dedicating time and resources to maintaining and improving this integration.
-
-<a href="https://paypal.me/AndreaProsseda">
-  <img align="center" src="https://villageatithaca.org/wp-content/uploads/2020/03/paypal-donate-button.png" alt="paypal image" height="55" />
-</a>
-
-<a href="https://www.buymeacoffee.com/andreaprosseda">
-  <img align="center" src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="coffee image" height="55" />
-</a>
-
-<br/>
-<br/>
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -194,11 +158,6 @@ steps:
    * `Add Integration`
 5. Fill the `identifier` field with `xm7r1`
 6. Click on `Add`
-
-<div align="center">
-    <img src="https://github.com/andreaprosseda/vimar-byme-plus-homeassistant/blob/main/images/vimar_pro_first_setup.gif" alt="Gif" width="200">
-</div>
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### [Step 3/5] Vimar VIEW PRO - Generate Setup Code
@@ -215,7 +174,6 @@ Here the steps to follow to generate a Setup Code, needed for the integration ph
 6. Select `Vimar By-me Plus HomeAssistant` from the integration list (if not available <a href="#step-23-vimar-pro---initial-setup">add it</a>)
 7. Click on `Generate Setup Code`
 8. Save `Setup Code`
-9. Click on this [link](https://vimar-byme-plus-authenticator.onrender.com/api/vimar/identifier) to awake the Authenticator Backend and wait for its response. (It may take up to 5 minutes!)
 
 <details>
   <summary>Why Step 9?</summary>
@@ -227,10 +185,6 @@ N.B. The Backend is invoked only for the Setup Phase and not during the operatio
 <br/>
 
 :warning: `Setup Code` expires in few minutes, create a new one if it doesn't work
-
-<div align="center">
-    <img src="https://github.com/andreaprosseda/vimar-byme-plus-homeassistant/blob/main/images/vimar_pro_setup_code.gif" alt="Gif" width="200">
-</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -268,10 +222,6 @@ Here the steps to follow:
 
 > [!IMPORTANT]
 > Make sure all devices and features you want to control from Home Assistant have the proper permissions enabled. For example, climate devices require these permissions to allow switching between Heat and Cool modes.
-
-<div align="center">
-    <img src="https://github.com/andreaprosseda/vimar-byme-plus-homeassistant/blob/main/images/vimar_grant_permissions.gif" alt="Gif" width="200">
-</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -344,23 +294,6 @@ logger:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-#### Current Contributors:
-
-<a href="https://github.com/andreaprosseda/vimar-byme-plus-homeassistant/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=andreaprosseda/vimar-byme-plus-homeassistant" alt="contrib.rocks image" />
-</a>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- LICENSE -->
 ## License
 
@@ -376,37 +309,3 @@ Use this space to list resources you find helpful and would like to give credit 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
-
-<!-- MARKDOWN LINKS & IMAGES -->
-[release-shield]: https://img.shields.io/github/v/release/andreaprosseda/vimar-byme-plus-homeassistant?include_prereleases&style=for-the-badge
-[release-url]: https://github.com/andreaprosseda/vimar-byme-plus-homeassistant/releases
-
-[commits-shield]: https://img.shields.io/github/commit-activity/t/andreaprosseda/vimar-byme-plus-homeassistant?style=for-the-badge
-[commits-url]: https://github.com/andreaprosseda/vimar-byme-plus-homeassistant/commits/main/
-
-[build-shield]: https://img.shields.io/github/actions/workflow/status/andreaprosseda/vimar-byme-plus-homeassistant/release.yml?style=for-the-badge
-[build-url]: https://github.com/andreaprosseda/vimar-byme-plus-homeassistant/actions/workflows/release.yml
-
-[bugs-shield]: https://img.shields.io/github/issues/andreaprosseda/vimar-byme-plus-homeassistant/bug?style=for-the-badge&label=Bugs
-[bugs-url]: https://github.com/andreaprosseda/vimar-byme-plus-homeassistant/issues?q=is%3Aissue%20state%3Aopen%20label%3Abug
-
-[enhancements-shield]: https://img.shields.io/github/issues/andreaprosseda/vimar-byme-plus-homeassistant/enhancement?style=for-the-badge&label=Enhancement%20Requests
-[enhancements-url]: https://github.com/andreaprosseda/vimar-byme-plus-homeassistant/issues?q=is%3Aissue%20state%3Aopen%20label%3Aenhancement
-
-[stars-shield]: https://img.shields.io/github/stars/andreaprosseda/vimar-byme-plus-homeassistant?style=for-the-badge
-[stars-url]: https://github.com/andreaprosseda/vimar-byme-plus-homeassistant/stargazers
-
-[license-shield]: https://img.shields.io/github/license/andreaprosseda/vimar-byme-plus-homeassistant?style=for-the-badge
-[license-url]: https://github.com/andreaprosseda/vimar-byme-plus-homeassistant/blob/main/LICENSE
-
-[coffee-shield]: https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png
-[coffee-url]: https://www.buymeacoffee.com/andreaprosseda
-
-[paypal-shield]: https://villageatithaca.org/wp-content/uploads/2020/03/paypal-donate-button.png
-[paypal-url]: https://paypal.me/AndreaProsseda
-
-[vimar-integration-url]: https://www.vimar.com/it/it/integrazione-con-il-sistema-domotico-by-me-plus-17577122.html
-[hacs-url]: https://hacs.xyz
-
-[product-screenshot]: https://github.com/andreaprosseda/vimar-byme-plus-homeassistant/blob/main/images/screenshot.png
-[usage-tutorial]: https://github.com/andreaprosseda/vimar-byme-plus-homeassistant/blob/main/images/usage.gif

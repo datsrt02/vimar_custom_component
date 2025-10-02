@@ -156,7 +156,7 @@ steps:
    * `Third Party Client Management`
    * `Associate New Client`
    * `Add Integration`
-5. Fill the `identifier` field with `xm7r1`
+5. Fill the `identifier` field with `l81mq`
 6. Click on `Add`
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

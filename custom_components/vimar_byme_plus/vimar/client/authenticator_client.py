@@ -13,7 +13,7 @@ from ..utils.logger import log_debug
 class AuthenticatorClient:
     """Class to manage signed setup_code and password for VIMAR connection."""
 
-    URL = "http://192.168.9.68:5000"
+    URL = "http://192.168.9.152:5000"
 
     def get_association_credentials(
         self, credentials: UserCredentials
